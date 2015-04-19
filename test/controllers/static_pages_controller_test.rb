@@ -6,6 +6,12 @@ class StaticPagesControllerTest < ActionController::TestCase
     @base_title = "Botnyst"
   end
 
+  test "should get news and media" do
+    get :newsandmedia
+    assert_response :success
+    assert_select "title", "#{@base_title}"
+  end
+  
   test "should get home" do
     get :home
     assert_response :success
