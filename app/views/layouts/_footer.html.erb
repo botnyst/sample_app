@@ -5,6 +5,20 @@
   </small>
   <nav>
     <ul>
+        <%= link_to "http://www.facebook.com/example" do %>
+        <%= image_tag 'facebook.png', size: '25x25' %>
+        <% end %>
+          <%= link_to "http://www.twitter.com/example" do %>
+        <%= image_tag 'twitter.png', size: '25x25' %>
+        <% end %>
+          <%= link_to "http://www.pinterest.com/example" do %>
+        <%= image_tag 'pinterest.png', size: '25x25' %>
+        <% end %>
+
+         <%= link_to "http://www.youtube.com/example" do %>
+        <%= image_tag 'youtube.png', size: '25x25' %>
+        <% end %>
+
       <li><%= link_to "About",   about_path %></li>
       <li><%= link_to "Contact", contact_path %></li>
       <li><%= link_to "News and Media", newsandmedia_path %></li>
