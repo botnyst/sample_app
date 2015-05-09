@@ -203,3 +203,15 @@ input {
 		
 	}
 }
+
+/* :..[ Social Icons ]..: */
+ 
+.social-icons { float: right; display: inline; width: auto; height: auto; margin: 7px 0 0; padding: 0; }
+.social-icons .social { list-style: none; margin: 0; padding: 0; }
+.social-icons .social li { float: left; margin-right: 5px; width: 24px; height: 24px; }
+.social-icons .social li.last { margin-right: 0; }
+.social-icons .social li a { display: block; outline: none; width: 24px; height: 24px; text-indent: -9999px; }
+.social-icons .social li a.rss { background: url('images/social.png') no-repeat scroll 0 0; }
+.social-icons .social li a.twitter { background: url('images/social.png') no-repeat scroll -24px 0; }
+.social-icons .social li a.facebook { background: url('images/social.png') no-repeat scroll -48px 0; }
+.social-icons .social li a.google { background: url('images/social.png') no-repeat scroll -72px 0; }
