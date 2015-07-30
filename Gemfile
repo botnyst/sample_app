@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
 gem 'rails',                  '4.2.0'
 gem 'blogit',                 '1.0.0'
 gem 'acts-as-taggable-on', '~> 3.4'
