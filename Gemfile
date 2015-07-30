@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',                  '4.2.0'
-gem 'blogit',                 '1.1.0'
+gem 'blogit',                 '1.0.0'
 gem 'acts-as-taggable-on', '~> 3.4'
 gem 'bcrypt',			        	  '3.1.7'
 gem 'faker',                  '1.4.2'
