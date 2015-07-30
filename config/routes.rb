@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
  
+
   get 'password_resets/new'
 
   get 'password_resets/edit'
@@ -7,8 +8,9 @@ Rails.application.routes.draw do
   get 'sessions/new'
 
   get 'users/new'
-
   root              'static_pages#home'
+  mount Blogit::Engine => "/newsandmedia"
+
   get     'help'         =>  'static_pages#help'
   get     'about'        =>  'static_pages#about'
   get     'contact'      =>  'static_pages#contact'
@@ -29,6 +31,8 @@ Rails.application.routes.draw do
   resources :password_resets,     only: [:new, :create, :edit, :update]
   resources :microposts,          only: [:create, :destroy]
   resources :relationships,       only: [:create, :destroy]
+
+
 
 end
 
